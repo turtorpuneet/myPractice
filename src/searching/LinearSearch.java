@@ -6,11 +6,11 @@ public class LinearSearch {
 		
 		int arr[] = {2,3,4,10,40};
 		int x = 300;
-		boolean resultFound = search(arr,x);
+		boolean resultFound = Linearsearch(arr,x);
 		System.out.println(resultFound);
 	}
 
-	private static boolean search(int[] arr, int x) {
+	private static boolean Linearsearch(int[] arr, int x) {
 		
 		boolean searchFound= false;
 		int length = arr.length;
